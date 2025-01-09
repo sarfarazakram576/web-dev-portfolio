@@ -172,15 +172,15 @@ border-radius: 5px;
 
 /* whatido styles*/
 .whatido{
-   max-width: 950px;
-    margin: 0 auto;
+   /* max-width: 950px;
+    margin: 0 auto; */
     margin-bottom: 2cm;
 }
 .whatido >h2{
     margin: 0 4cm 30px;
 }
 .whatido >p{
-    margin: 0 2.6cm 20px;
+    margin: 0 1.5cm 20px;
 }
 .skill{
     display: flex;
@@ -190,14 +190,16 @@ border-radius: 5px;
 }
 .skill-items{
 line-height: 23px;
-height: 270px;
+height: 290px;
 border-radius: 5px;
-width: 220px;
-padding: 0 10px;
+width: 200px;
+padding: 5px 10px;
 box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 6%);
 }
 .skill-items>img{
     margin: 6px 0;
+    height: 32px;
+    width: 38px;
 }
 .skill-items>h4{
     font-size: 18px;
@@ -208,4 +210,52 @@ box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 6%);
     font-size: 14px;
     margin: 15px 0;
     color: #757575;
+}
+/* resume styles */
+.resume{
+    margin: 2cm 0;
+}
+.resume h1{
+    font-size: 30px;
+    color: #181818;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.resume-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 1.5cm 0 1.2cm;
+}
+.resume-column > h2{
+    color: #474747;
+    font-size: 25px;
+}
+.resume-content{
+    padding: 20px 0 0;
+}
+#border{
+    border-top: 1px solid gray;
+
+}
+.resume-content h4{
+    color: #474747;
+    font-size: 20px;
+   margin-bottom: 25px;
+}
+.norp{
+    color: #757575;
+    font-size: 16px;
+   margin-bottom: 15px;
+}
+.diffp{
+    color: #757575;
+    font-size: 13px;
+   margin-bottom: 15px;
+}
+.button{
+    text-align: center;
 }
