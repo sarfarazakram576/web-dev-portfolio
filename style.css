@@ -138,7 +138,7 @@ main{
     background-color: #FFF8F3;
     padding: 2cm;
 
-
+border-radius: 5px;
 }
 .about{
     border: 1px solid black;
@@ -168,4 +168,44 @@ main{
     text-align: center;
     justify-content: space-evenly;
     gap: 15px;
+}
+
+/* whatido styles*/
+.whatido{
+   max-width: 950px;
+    margin: 0 auto;
+    margin-bottom: 2cm;
+}
+.whatido >h2{
+    margin: 0 4cm 30px;
+}
+.whatido >p{
+    margin: 0 2.6cm 20px;
+}
+.skill{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.skill-items{
+line-height: 23px;
+height: 270px;
+border-radius: 5px;
+width: 220px;
+padding: 0 10px;
+box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 6%);
+}
+.skill-items>img{
+    margin: 6px 0;
+}
+.skill-items>h4{
+    font-size: 18px;
+    margin: 8px 0;
+    color: #181818;
+}
+.skill-items>p{
+    font-size: 14px;
+    margin: 15px 0;
+    color: #757575;
 }
