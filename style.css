@@ -221,8 +221,9 @@ box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 6%);
 }
 .resume-container{
     display: flex;
-    justify-content: space-between;
-    gap: 150px;
+    justify-content:space-around;
+    gap: 80px;
+    align-items: center;
 }
 .resume-column{
     display: flex;
@@ -235,7 +236,7 @@ box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 6%);
     font-size: 25px;
 }
 .resume-content{
-    padding: 20px 0 0;
+    padding: 20px 20px 0;
 }
 #border{
     border-top: 1px solid gray;
