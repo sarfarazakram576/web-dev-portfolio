@@ -291,6 +291,7 @@ font-size: 14px;
 }
 .footer-image img{
     margin: 0 5px 20px;
+    cursor: pointer;
 }
 footer form input[type="text"] ,input[type="email"]{
     width: 100%;
