@@ -29,7 +29,10 @@ nav{
  align-items: center;
 padding: 0px 90px;
 }
-
+.header a{
+    text-decoration: none;
+    color: black;
+}
 .navtitle{
     font-weight: 800;
     font-size: 45px;
