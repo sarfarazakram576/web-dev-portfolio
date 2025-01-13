@@ -33,6 +33,7 @@ padding: 0px 90px;
 .navtitle{
     font-weight: 800;
     font-size: 45px;
+    cursor: pointer;
 }
 .differentcolor{
     color: rgb(253, 110, 10);
@@ -62,8 +63,15 @@ color: #5e5d5d;
     border: none;
     font-size: 18px;
     cursor: pointer;
-}
+   border: 2px solid #FD812B;
 
+}
+.btn:hover{
+   color: #FD6E0A;
+   background-color: white;
+   border: 2px solid #FD812B;
+
+}
 /* banner style  */
 .banner{
     display: flex;
@@ -107,6 +115,11 @@ justify-content: space-between;
     font-size: 18px;
     cursor: pointer;
     background-color: transparent;
+}
+.btn-dif:hover{
+    border: 2px solid black;
+    color: white;
+background-color: #FD6E0A;
 }
 .diff{
     margin-left: 15px;
@@ -200,6 +213,7 @@ box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 6%);
     margin: 6px 0;
     height: 32px;
     width: 38px;
+    cursor: pointer;
 }
 .skill-items>h4{
     font-size: 18px;
